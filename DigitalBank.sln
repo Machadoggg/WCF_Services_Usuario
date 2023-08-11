@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.Dominio", "Digitalbank.Comercial.Usuarios.Dominio\Digitalbank.Comercial.Usuarios.Dominio.csproj", "{74385F7E-1299-4DD2-8F02-3E8BBA8B338B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{C7C56A8D-38CF-48DA-9DA7-DD4516EEE1C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E6F4CB2C-55F9-49C8-9D8F-E35FB23249ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.WcfService", "Digitalbank.Comercial.Usuarios.WcfService\Digitalbank.Comercial.Usuarios.WcfService.csproj", "{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.Contrato", "Digitalbank.Comercial.Usuarios.Contrato\Digitalbank.Comercial.Usuarios.Contrato.csproj", "{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.Implementacion", "Digitalbank.Comercial.Usuarios.Implementacion\Digitalbank.Comercial.Usuarios.Implementacion.csproj", "{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.Fachada", "Digitalbank.Comercial.Usuarios.Fachada\Digitalbank.Comercial.Usuarios.Fachada.csproj", "{3A5BEC76-36AF-4B5D-9D81-1520D41FA935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.ContratoRepositorio", "Digitalbank.Comercial.Usuarios.ContratoRepositorio\Digitalbank.Comercial.Usuarios.ContratoRepositorio.csproj", "{530A532F-24E0-49FA-BD03-D6CC03744F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.SqlRepositorio", "Digitalbank.Comercial.Usuarios.SqlRepositorio\Digitalbank.Comercial.Usuarios.SqlRepositorio.csproj", "{D305EDBE-93DA-4F33-9AC2-013A3280AF66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalbank.Comercial.Usuarios.WebConsumo", "Digitalbank.Comercial.Usuarios.WebConsumo\Digitalbank.Comercial.Usuarios.WebConsumo.csproj", "{9CE8010C-702D-441F-8BE7-E95C3C3CF80C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74385F7E-1299-4DD2-8F02-3E8BBA8B338B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74385F7E-1299-4DD2-8F02-3E8BBA8B338B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74385F7E-1299-4DD2-8F02-3E8BBA8B338B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74385F7E-1299-4DD2-8F02-3E8BBA8B338B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5BEC76-36AF-4B5D-9D81-1520D41FA935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5BEC76-36AF-4B5D-9D81-1520D41FA935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5BEC76-36AF-4B5D-9D81-1520D41FA935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5BEC76-36AF-4B5D-9D81-1520D41FA935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530A532F-24E0-49FA-BD03-D6CC03744F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530A532F-24E0-49FA-BD03-D6CC03744F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530A532F-24E0-49FA-BD03-D6CC03744F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530A532F-24E0-49FA-BD03-D6CC03744F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D305EDBE-93DA-4F33-9AC2-013A3280AF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D305EDBE-93DA-4F33-9AC2-013A3280AF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D305EDBE-93DA-4F33-9AC2-013A3280AF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D305EDBE-93DA-4F33-9AC2-013A3280AF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE8010C-702D-441F-8BE7-E95C3C3CF80C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE8010C-702D-441F-8BE7-E95C3C3CF80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE8010C-702D-441F-8BE7-E95C3C3CF80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE8010C-702D-441F-8BE7-E95C3C3CF80C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74385F7E-1299-4DD2-8F02-3E8BBA8B338B} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{E8765CCE-F57B-4C68-8EF7-41C1FFFDFE93} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{0D98AFBB-5B4D-48DB-8AD0-5E216301AE39} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{32DD9430-6C2B-4C8C-AEEC-6FA1D4E2526A} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{3A5BEC76-36AF-4B5D-9D81-1520D41FA935} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{530A532F-24E0-49FA-BD03-D6CC03744F67} = {FE9FC5F3-AFC5-4C0E-9280-E385FE455F40}
+		{D305EDBE-93DA-4F33-9AC2-013A3280AF66} = {E6F4CB2C-55F9-49C8-9D8F-E35FB23249ED}
+		{9CE8010C-702D-441F-8BE7-E95C3C3CF80C} = {C7C56A8D-38CF-48DA-9DA7-DD4516EEE1C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C73931D-256D-4117-A61C-F3261775D49E}
+	EndGlobalSection
+EndGlobal
